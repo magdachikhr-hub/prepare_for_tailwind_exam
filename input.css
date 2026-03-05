@@ -9,3 +9,21 @@
 .header_font {
   font-family: "League Spartan", sans-serif;
 }
+
+.card {
+  width: 327px;
+  height: 250px;
+  color: #ffffff;
+}
+
+.web {
+  background-image: url(./web.jpg);
+}
+
+.app {
+  background-image: url(./phone.png);
+}
+
+.graphic {
+  background-image: url(./graphic.jpg);
+}
