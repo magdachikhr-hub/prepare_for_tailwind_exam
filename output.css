@@ -171,8 +171,56 @@
   .top-5 {
     top: calc(var(--spacing) * 5);
   }
+  .top-\[102px\] {
+    top: 102px;
+  }
+  .right-0 {
+    right: calc(var(--spacing) * 0);
+  }
   .right-\[-20px\] {
     right: -20px;
+  }
+  .right-\[6px\] {
+    right: 6px;
+  }
+  .right-\[7px\] {
+    right: 7px;
+  }
+  .right-\[63px\] {
+    right: 63px;
+  }
+  .right-\[65px\] {
+    right: 65px;
+  }
+  .right-\[67px\] {
+    right: 67px;
+  }
+  .right-\[69px\] {
+    right: 69px;
+  }
+  .right-\[75px\] {
+    right: 75px;
+  }
+  .right-\[77px\] {
+    right: 77px;
+  }
+  .right-\[77spx\] {
+    right: 77spx;
+  }
+  .right-\[78px\] {
+    right: 78px;
+  }
+  .bottom-0 {
+    bottom: calc(var(--spacing) * 0);
+  }
+  .left-\[55px\] {
+    left: 55px;
+  }
+  .left-\[63px\] {
+    left: 63px;
+  }
+  .left-\[px\] {
+    left: px;
   }
   .flex {
     display: flex;
@@ -189,6 +237,18 @@
   .h-\[96px\] {
     height: 96px;
   }
+  .h-\[843\] {
+    height: 843;
+  }
+  .h-\[843px\] {
+    height: 843px;
+  }
+  .w-\[264\.382080078125\] {
+    width: 264.382080078125;
+  }
+  .w-\[264\.382080078125px\] {
+    width: 264.382080078125px;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -201,11 +261,17 @@
   .resize {
     resize: both;
   }
+  .flex-col {
+    flex-direction: column;
+  }
   .items-center {
     align-items: center;
   }
   .justify-between {
     justify-content: space-between;
+  }
+  .justify-center {
+    justify-content: center;
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
@@ -214,11 +280,17 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-\[\#E7816B\] {
+    background-color: #E7816B;
+  }
   .pr-\[24px\] {
     padding-right: 24px;
   }
   .pl-\[24px\] {
     padding-left: 24px;
+  }
+  .text-center {
+    text-align: center;
   }
   .text-\[24px\] {
     font-size: 24px;
@@ -237,6 +309,9 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .filter {
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
   .group-hover\:block {
     &:is(:where(.group):hover *) {
@@ -360,6 +435,59 @@
   inherits: false;
   initial-value: solid;
 }
+@property --tw-blur {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-brightness {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-contrast {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-grayscale {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-hue-rotate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-invert {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-opacity {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-saturate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-sepia {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-drop-shadow-size {
+  syntax: "*";
+  inherits: false;
+}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -372,6 +500,19 @@
       --tw-font-weight: initial;
       --tw-tracking: initial;
       --tw-outline-style: solid;
+      --tw-blur: initial;
+      --tw-brightness: initial;
+      --tw-contrast: initial;
+      --tw-grayscale: initial;
+      --tw-hue-rotate: initial;
+      --tw-invert: initial;
+      --tw-opacity: initial;
+      --tw-saturate: initial;
+      --tw-sepia: initial;
+      --tw-drop-shadow: initial;
+      --tw-drop-shadow-color: initial;
+      --tw-drop-shadow-alpha: 100%;
+      --tw-drop-shadow-size: initial;
     }
   }
 }
